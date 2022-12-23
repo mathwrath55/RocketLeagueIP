@@ -23,7 +23,7 @@ def get_playlist(num):
         return 'Tourney 2s'
     if num == 38:
         return 'LTM'
-    return 'Unknown Mode'
+    return 'Unknown (playlist ' + str(num) + ')'
 def get_location(ip):
     ip_address = ip
     response = requests.get(f'https://ipapi.co/{ip_address}/json/').json()
