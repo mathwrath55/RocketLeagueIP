@@ -35,7 +35,7 @@ def get_location(ip):
     }
     return location_data
 
-#replace the part in square brackets with the file address of this folder
+#replace the path with your log folder
 #for me, it was in C:/Users/(my user)/Documents/
 file_dir = 'C:/Users/(my user)/Documents/My Games/Rocket League/TAGame/Logs/'
 ip_lines = []
