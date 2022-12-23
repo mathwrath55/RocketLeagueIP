@@ -20,7 +20,7 @@ def get_playlist(num):
     if num == 13:
         return 'Comp 3s'
     if num == 34:
-        return 'Tourney 2s'
+        return 'Tourney'
     if num == 38:
         return 'LTM'
     return 'Unknown (playlist ' + str(num) + ')'
